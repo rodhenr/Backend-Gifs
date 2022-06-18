@@ -26,4 +26,6 @@ app.get("/trending", async (req, res) => {
   await axios.get(url).then((response) => res.send(response.data));
 });
 
-app.listen(port);
+app.listen(port, () => {
+  console.log(`Aplicação rodando...`);
+});
