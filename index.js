@@ -1,6 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 var cors = require("cors");
+require("dotenv").config()
 
 const app = express();
 
@@ -10,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-const key = "nN5e5R7PlwEPafwg1DJwfmBlYvbL7d5g";
+const key = process.env.SECRET_KEY
 
 app.get("/search", async (req, res) => {
   const limit = req.query.limit;
