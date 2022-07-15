@@ -8,6 +8,7 @@ Para este projeto foram utilizadas as seguintes tecnologias:
 - [Node](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ## Como replicar este projeto :dvd:
 * Vá até o repositório [GIF Search](https://github.com/rodhenr/GIF-Search-FrontEnd) e siga as instruções.
